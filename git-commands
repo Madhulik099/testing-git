@@ -39,6 +39,46 @@ madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (prod)
 $ git pull 
 Already up to date.
 
+
+madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (prod)
+$ git status
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (prod)
+$ git add .
+
+madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (prod)
+$ git commit -m "clone to prod"
+[prod 6921c2a] clone to prod
+ 1 file changed, 26 insertions(+)
+
+madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (prod)
+$ git status
+On branch prod
+Your branch is ahead of 'origin/prod' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (prod)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 774 bytes | 774.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Madhulik099/testing-git.git
+   1772dfd..6921c2a  prod -> prod
+
 madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (prod)
 $
 
