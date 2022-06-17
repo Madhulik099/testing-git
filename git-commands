@@ -1,0 +1,18 @@
+touch testing.txt
+
+git init      - to initialize
+
+git remote add  origin https://github.com/Madhulik099/testing-git.git   to add remote repo to local - url came from clone url http
+
+git status 
+
+git add .          . - to add all files into staging
+
+git commit -m "Message"
+
+git status 
+
+git push origin       - 
+
+
+
