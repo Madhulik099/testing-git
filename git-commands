@@ -14,5 +14,31 @@ git status
 
 git push origin       - 
 
+------------------------------------------------
 
+GIT CLONE AND PUSH TO PROD 
+
+
+
+madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands
+$ git clone https://github.com/Madhulik099/testing-git.git .
+Cloning into '.'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 12 (delta 1), reused 8 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), done.
+Resolving deltas: 100% (1/1), done.
+
+madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (main)
+$ git checkout prod
+Switched to a new branch 'prod'
+branch 'prod' set up to track 'origin/prod'.
+
+madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (prod)
+$ git pull 
+Already up to date.
+
+madhu@SuniSrinu MINGW64 /d/madhu/EDU/git-commands (prod)
+$
 
